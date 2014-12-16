@@ -1,0 +1,16 @@
+{
+  "name": "rootpanel.io",
+  "version": "0.1.0",
+  "homepage": "https://github.com/RootPanel/rootpanel.io",
+  "authors": [
+    "jysperm <jysperm@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}

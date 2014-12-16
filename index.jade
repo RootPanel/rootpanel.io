@@ -1,0 +1,70 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title RootPanel: A pluggable PaaS framework
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/index.css')
+  body
+    header.navbar-fixed-top
+      .container
+        nav.navbar.navbar-default.navbar-inverse(role='navigation')
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-collapse')
+              span.sr-only 展开导航
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand RootPanel
+          #navbar-collapse.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+              li
+                a(href='https://github.com/jysperm/RootPanel') fork on Github
+
+    .page-title
+      .container
+        h1 RootPanel: A pluggable PaaS framework
+
+        ul
+          li 基于 Node.js, 使用 Coffee Script 编写，使用 MongoDB
+          li 基于 Bootstrap 的前端页面
+          li 包含用户系统、工单系统和计费功能
+          li 完全插件化实现，可以非常简单地拓展功能
+          li 85% 以上的单元测试覆盖率
+          li 多语言、多时区支持
+
+        .row.buttons
+          a.btn.btn-lg.btn-info(href='http://jp1.rpvhost.net') Demo
+          a.btn.btn-lg.btn-default(href='https://github.com/jysperm/RootPanel') fork on Github
+          a.btn.btn-lg.btn-success(href='https://github.com/jysperm/RootPanel/releases') Releases
+
+      .row-screenshot
+        img(src='/images/screenshot.png')
+
+    .page-features
+      .container
+        .page-header
+          h2 场景：Linux 虚拟主机
+
+        p 亲历放我事能出品事，上务局色论积学员共运，看例豆回变杏年辰。 入动毛列白第文油快一百是记，指元参适她京承月再整伶。 次的场团完众按整志，响看无准5状程。 情度本水原积适流，方条会此音消直史，这几近斗复周建，点去切其切6。 是公放及素世七几，联展规持段组，利作详于抓保。 问相克又常大是土长领增外际按省规她原单，做只是很米常需化录带园专住听秃年1。 阶展风们特民消就口，自维山决何目广，电受辰心T格园。 为进她争满体严，人八只记土成高，南V园呜更。 体存由思安准员，被育门养养火龙受，个孟运D线至。 的代增常看打外电，学造年计领程，空机肃E厕辰。 情信军阶导有保计农，老水同9感杏实。 改历特场节得，长七阶成省业，么3板定。 口问积就先解称步则，号性是观员清状利西，毛G芬苍你几观。 代在基响响是象，身此江集铁身，持2旱覆验。 决变证为品族取习被十年被提整，面准单织低山肃丽日小照志。 方月选口起者着难压，放这值运受过当，为万FA质直与。 化学此必省活主，动条头每员关发，结材连许现。
+
+        .page-header
+          h2 场景：ShadowSocks 代理服务
+
+        p 问发上义斗人满事，厂单物教通成，好易询工更出。 少细快许军她，想积接往场导，家9却铁。 都族反更五电都们思还百速，作前定种带青对林许任目上，战百X丧口格运镰柜定。 布火书四变基次火走于，在成划全结它利却气高，又原F切难的位条。 门为省酸度合给半向，目任达江业片又际车内，为步V坊省断4私。 二东计厂己马标，何我员杏整具。 再根者你此本际用她最，确都系程按非基七根，便展Q4吩教B统。 入群名活建传毛何八如市，电门不原克必支二命，离主J流越什边秃矿。 气各易北集流约里先，铁装自或思们并约，该话询但7月观。 则入例上意象此矿，越应值史经会连，议采则制品北眼，Y流科圆常于。 指好何离热好他水西西与别开后这，才积现看政程录1坚县成6你。 才算件去在可就多这存，四结花四间要气记，算切医整而如8呈。 易装者团集地四志矿往，主意九到内书要现历，通要杨联快不家内。 则对维引王法必，受准者被阶基才，况P秃具素。 声米再价验记实声设大，示分日象厂但声算王，相9克扮赤式将励。
+
+    .page-footer
+      .container
+        p Contributions: jysperm, yudong
+        p License: AGPLv3
+
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q || []).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-49193300-8', 'auto');
+      ga('send', 'pageview');
+    script(src='/bower_components/jquery/dist/jquery.min.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+    script(src='/index.js')
